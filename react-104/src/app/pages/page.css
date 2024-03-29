@@ -1,0 +1,27 @@
+.characters-wrapper,
+.comics-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.character-details,
+.comic-details{
+    text-align: center;
+}
+.character-info, .character-comics, .comic-variants{
+    display: flex;
+    flex-direction: column;
+}
+.character-info{
+    gap: 10px;
+}
+.character-comics{
+    gap: 5px;
+}
+
+.comic-variants{
+    gap: 40px;
+}
